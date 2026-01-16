@@ -21,6 +21,7 @@ Setup of the Python development environment and creation of an interactive scrip
 
 ## 🔢 Task 2: Data Types & Operations Demo
 **File:** `datatypes_demo.py`
+**Date:** 16/01/26
 
 ### Description
 A deep dive into how Python manages memory and data through dynamic typing and mathematical operations.
@@ -32,17 +33,4 @@ A deep dive into how Python manages memory and data through dynamic typing and m
 - **Arithmetic Logic:** Execution of Addition, Subtraction, Multiplication, and Division.
 - **Concatenation:** Best practices for joining strings with numeric data using `str()` and f-strings.
 
-### 🛠️ How it Works
-The script follows this logic flow:
-1. **Input Collection:** Captures name, roll number, and price from the user.
-2. **Validation:** Prints the `type()` of each variable to confirm data storage.
-3. **Calculation:** Performs math on user-provided integers (`a` and `b`).
-4. **Memory Demo:** Reassigns a string variable to an integer to demonstrate Python's flexible memory management.
 
----
-
-## 💻 How to Run
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Lokitha-S/Elevate_labs.git](https://github.com/Lokitha-S/Elevate_labs.git)
