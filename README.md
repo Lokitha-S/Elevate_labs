@@ -1,19 +1,48 @@
-PYTHON DEVELOPER INTERNSHIP (15/01/26)TASK 1: Python Environment Setup & First Script-.Create a Python file named hello_world.py.Write a program to print your name, internship role, and today's date.Use variables to store values instead of hardcoding them.Run the program from terminal to understand execution flow.Modify the script to accept user input for name and role.Add comments explaining each line to build readability habits.
-Task2:# Python Data Types & Operations Demo
+# Python Developer Internship - Task Submissions 🚀
 
-A practical Python script demonstrating core programming concepts including dynamic typing, variable declaration, arithmetic operations, and type casting.
+This repository contains the tasks completed during my Python Developer Internship, starting January 15, 2026.
 
-## 🚀 Features
+---
 
+## 📅 Task 1: Environment Setup & First Script
+**File:** `hello_world.py`  
+**Date:** 15/01/26
+
+### Description
+Setup of the Python development environment and creation of an interactive script to handle basic user identification.
+
+### Key Objectives:
+- **Variable Storage:** Storing user information in variables instead of hardcoding strings.
+- **Dynamic Input:** Modified the script to accept `input()` from the terminal for Name and Role.
+- **Execution Flow:** Learned to trigger scripts directly from the macOS terminal.
+- **Readability:** Implemented line-by-line commenting to establish best practices.
+
+---
+
+## 🔢 Task 2: Data Types & Operations Demo
+**File:** `datatypes_demo.py`
+
+### Description
+A deep dive into how Python manages memory and data through dynamic typing and mathematical operations.
+
+### 🚀 Features
 - **Variable Management:** Declaration and type checking for `int`, `float`, `str`, and `bool`.
 - **Dynamic Typing:** Demonstration of how Python reassigns variable types at runtime.
-- **Data Conversion:** Practical examples of casting string inputs into numeric types.
-- **Arithmetic Logic:** Basic mathematical operations (Addition, Subtraction, Multiplication, Division).
-- **Concatenation:** Best practices for joining strings with numeric data.
+- **Data Conversion:** Practical examples of casting string inputs into numeric types using `int()` and `float()`.
+- **Arithmetic Logic:** Execution of Addition, Subtraction, Multiplication, and Division.
+- **Concatenation:** Best practices for joining strings with numeric data using `str()` and f-strings.
 
-## 🛠️ How it Works
+### 🛠️ How it Works
+The script follows this logic flow:
+1. **Input Collection:** Captures name, roll number, and price from the user.
+2. **Validation:** Prints the `type()` of each variable to confirm data storage.
+3. **Calculation:** Performs math on user-provided integers (`a` and `b`).
+4. **Memory Demo:** Reassigns a string variable to an integer to demonstrate Python's flexible memory management.
 
-The script takes user input for name, roll number, and price, then performs the following logic:
-1. Validates data types using the `type()` function.
-2. Performs math on user-provided integers.
-3. Demonstrates the flexibility of Python's memory management by changing variable types mid-script.
+---
+
+## 💻 How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Lokitha-S/Elevate_labs.git](https://github.com/Lokitha-S/Elevate_labs.git)
