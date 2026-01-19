@@ -33,4 +33,27 @@ A deep dive into how Python manages memory and data through dynamic typing and m
 - **Arithmetic Logic:** Execution of Addition, Subtraction, Multiplication, and Division.
 - **Concatenation:** Best practices for joining strings with numeric data using `str()` and f-strings.
 
+## 📊 Task 3: Logical Operations & Grade Calculator
+**File:** `grade_calculator.py` | **Date:** 19/01/26
+
+### Description
+Developed a multi-subject grade calculator that applies real-world business rules using conditional logic.
+
+### 🚀 Features
+- **Multi-Subject Input:** Collects marks for Math, Science, Social, and English.
+- **Logical Operators:** Used `and` and `or` to define complex grading boundaries (e.g., `sum > 35 or sum == 40`).
+- **Nested Conditions:** Implemented a "Just Pass" rule for specific total marks and a failure identification system.
+- **Data Validation:** Included logic to ensure inputs are within valid numeric ranges (0-100).
+- **Refactored Code:** Cleaned up logic for high readability and efficient execution.
+
+### 🛠️ Example Logic
+| Total Marks | Result |
+| :--- | :--- |
+| > 35 or == 40 | Excellent |
+| 20 - 34 | Average |
+| == 10 | Just Pass |
+| < 20 | Fail |
+
+---
+
 
