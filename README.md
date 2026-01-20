@@ -47,7 +47,7 @@ Developed a multi-subject grade calculator that applies real-world business rule
 - **Refactored Code:** Cleaned up logic for high readability and efficient execution.
 
 ## 🔁 Task 4: Loops & Control Flow
-**File:** `loop_tasks.py` & `traffic_light.py` | **Date:** 20/01/26
+**File:** `loop_tasks.py`  | **Date:** 20/01/26
 
 ### Description
 Explored the automation power of loops, transitioning from basic iteration to real-world simulation systems.
