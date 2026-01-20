@@ -46,14 +46,16 @@ Developed a multi-subject grade calculator that applies real-world business rule
 - **Data Validation:** Included logic to ensure inputs are within valid numeric ranges (0-100).
 - **Refactored Code:** Cleaned up logic for high readability and efficient execution.
 
-### 🛠️ Example Logic
-| Total Marks | Result |
-| :--- | :--- |
-| > 35 or == 40 | Excellent |
-| 20 - 34 | Average |
-| == 10 | Just Pass |
-| < 20 | Fail |
+## 🔁 Task 4: Loops & Control Flow
+**File:** `loop_tasks.py` & `traffic_light.py` | **Date:** 20/01/26
 
----
+### Description
+Explored the automation power of loops, transitioning from basic iteration to real-world simulation systems.
+
+### 🚀 Features
+- **Iterative Sequences:** Used `for` loops and `range(start, stop, step)` to handle fixed datasets.
+- **Dynamic Conditions:** Implemented `while` loops for countdown timers and interactive menu systems.
+- **Loop Control:** Applied `break` to exit loops upon meeting conditions and `continue` to filter/skip data.
+- **Real-World Application:** Developed a **Smart Traffic Light System** using nested loops and the `time` module to manage sequential state changes (Red, Yellow, Green) with active countdowns.
 
 
