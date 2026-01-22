@@ -58,4 +58,19 @@ Explored the automation power of loops, transitioning from basic iteration to re
 - **Loop Control:** Applied `break` to exit loops upon meeting conditions and `continue` to filter/skip data.
 - **Real-World Application:** Developed an **ATM Withdrawal System** that utilizes a `while True` loop for continuous input validation and a `for` loop to calculate currency denominations (500, 200, 100 notes).
 
+## 🛠️ Task 5: Modular Programming with Functions
+**File:** `calculator.py` | **Date:** 22/01/26
+
+### Description
+Transitioned from linear scripting to procedural programming by building a modular calculator.
+
+### 🚀 Features
+- **Functional Isolation:** Created independent functions for `add`, `subtract`, `multiply`, and `divide`.
+- **Default Arguments:** Implemented default parameters to handle cases where a second input is missing.
+- **Error Resilience:** Added specific logic to prevent "Division by Zero" crashes.
+- **Documentation:** Used Python Docstrings to explain the purpose and parameters of every function.
+- **Return Logic:** Used `return` values to separate calculation logic from user interface (display) logic.
+
+
+
 
