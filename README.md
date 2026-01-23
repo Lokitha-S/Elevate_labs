@@ -71,6 +71,13 @@ Transitioned from linear scripting to procedural programming by building a modul
 - **Documentation:** Used Python Docstrings to explain the purpose and parameters of every function.
 - **Return Logic:** Used `return` values to separate calculation logic from user interface (display) logic.
 
+## Task 6: Advanced Collection Management
+**Status:** Completed ✅
+
+- Successfully implemented List deduplication via Set casting.
+- Conducted Set Theory analysis (Union, Intersection, Difference).
+- Verified data integrity protocols using Immutable Tuples.
+
 
 
 
