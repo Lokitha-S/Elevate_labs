@@ -78,30 +78,28 @@ Transitioned from linear scripting to procedural programming by building a modul
 - Conducted Set Theory analysis (Union, Intersection, Difference).
 - Verified data integrity protocols using Immutable Tuples.
 
-##Task 7: Data Serialization with JSON
-**File: student_records.py | **Date: 26/01/26
-
-🚀 Key Implementations
-Nested Dictionaries: Structured complex student data using unique keys.
-JSON Serialization: Used json.dump() and json.load() for persistent storage.
-File Handling: Implemented robust file I/O to save and retrieve records from student_records.json.
-Data Formatting: Applied advanced f-string alignment for professional tabular reporting.
-🛠️ Technical Skills
-CRUD Logic: Performed Create, Read, Update, and Delete operations on dictionary objects.
-Serialization Control: Mastered the use of indent, sort_keys, and ensure_ascii for standardized output.
-Data Integrity: Verified round-trip data consistency between Python objects and external files.
-
-
-## 📁 Task 8: File Systems and Exception Handling
-**Files:** `file_management.py`, `user_data.txt`, `intern_skills.csv`
+## 📁 Task 7: Data Serialization with JSON
+**File:** `student_records.py`  
+**Date:** 26/01/26
 
 ### 🚀 Key Implementations
-* **Streamlined I/O:** Utilized the `with` context manager for automatic resource management and file closure.
-* **Append Logic:** Implemented the `'a'` mode to update text logs without data loss.
-* **Structured Storage:** Leveraged the `csv` module for professional row/column data management.
-* **Error Resilience:** Integrated `try-except-finally` blocks to handle `IOError` and `FileNotFoundError`.
+* **Nested Dictionaries:** Structured complex student data using unique keys to represent a relational database format.
+* **JSON Serialization:** Utilized the `json` library (`json.dump()` and `json.load()`) to achieve persistent storage.
+* **File Handling:** Implemented robust file I/O operations to maintain data consistency in `student_records.json`.
+* **Data Formatting:** Applied advanced f-string alignment techniques to generate professional, tabular terminal reports.
 
-### 🛠️ Technical Skills Demonstrated
-* **Serialization:** Moving data from Python objects to `.txt` and `.csv` formats.
-* **Exception Propagation:** Managing runtime errors to prevent program termination.
-* **Resource Management:** Ensuring memory and file handles are released post-execution.
+
+## 📁 Task 8: File I/O and Content Persistence
+**Files:** `task8.py`, `fight_club_summary.txt`, `character_database.csv`
+**Date:** 27/01/26
+
+
+### 🚀 Key Implementations
+* **Text Processing:** Successfully wrote and appended extensive string data to local text files.
+* **Structured Data:** Leveraged the `csv` module to map character profiles into a tabular format.
+* **Context Management:** Used the `with` keyword to ensure proper resource closing (Step 9 requirement).
+* **Fault Tolerance:** Implemented a robust `try-except-finally` hierarchy to handle I/O failures.
+
+### 🛠️ Technical Skills
+* **File Stream Modes:** Applied `'w'` for initialization, `'a'` for metadata updates, and `'r'` for retrieval.
+* **Data Parsing:** Iterated through CSV objects to generate human-readable terminal reports.
