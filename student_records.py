@@ -1,4 +1,4 @@
-"""student1={"Name":"Raju","Class":4,"Perccentage":88.54}
+student1={"Name":"Raju","Class":4,"Perccentage":88.54}
 student2={"Name":"Apple","Class":4,"Perccentage":33.54}
 student3={"Name":"Anju","Class":4,"Perccentage":45}
 student5={"Name":"Yash","Class":4,"Perccentage":82}
@@ -41,7 +41,7 @@ for value in loop.values():
     print('Value:',value)
 for value,key in loop.items():
     print(f"{key}:{value}")
-"""
+
 #Convert dictionary to JSON
 import json
 rec={
