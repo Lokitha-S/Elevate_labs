@@ -92,4 +92,16 @@ Serialization Control: Mastered the use of indent, sort_keys, and ensure_ascii f
 Data Integrity: Verified round-trip data consistency between Python objects and external files.
 
 
+## 📁 Task 8: File Systems and Exception Handling
+**Files:** `file_management.py`, `user_data.txt`, `intern_skills.csv`
 
+### 🚀 Key Implementations
+* **Streamlined I/O:** Utilized the `with` context manager for automatic resource management and file closure.
+* **Append Logic:** Implemented the `'a'` mode to update text logs without data loss.
+* **Structured Storage:** Leveraged the `csv` module for professional row/column data management.
+* **Error Resilience:** Integrated `try-except-finally` blocks to handle `IOError` and `FileNotFoundError`.
+
+### 🛠️ Technical Skills Demonstrated
+* **Serialization:** Moving data from Python objects to `.txt` and `.csv` formats.
+* **Exception Propagation:** Managing runtime errors to prevent program termination.
+* **Resource Management:** Ensuring memory and file handles are released post-execution.
