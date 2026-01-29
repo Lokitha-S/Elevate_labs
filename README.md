@@ -103,3 +103,14 @@ Transitioned from linear scripting to procedural programming by building a modul
 ### 🛠️ Technical Skills
 * **File Stream Modes:** Applied `'w'` for initialization, `'a'` for metadata updates, and `'r'` for retrieval.
 * **Data Parsing:** Iterated through CSV objects to generate human-readable terminal reports.
+
+## Task 9: Error Handling and Logging
+**File:** `error_handling.py`,`errors.log`,`Task9.png`
+**Date:** 29/01/26
+
+
+### What I did:
+* **Try-Except:** Caught specific errors so the program doesn't crash.
+* **Logging:** Saved errors to a file called `errors.log` instead of just printing them.
+* **Else/Finally:** Used `else` for successful runs and `finally` for a clean finish.
+* **Custom Messages:** Created easy-to-read error messages for the user.
