@@ -118,7 +118,7 @@ Transitioned from linear scripting to procedural programming by building a modul
 
 ## 📁 Task 10: Object-Oriented Programming (OOP)
 **File:** `bank_account.py`
-
+**Date:** 30/01/26
 ### 🚀 Key Implementations
 * **Encapsulation:** Used private variables (`__balance`) to protect sensitive data from direct access.
 * **Inheritance:** Created a specialized `Savings` class that inherits logic from a base `Bank` class.
