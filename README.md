@@ -114,3 +114,18 @@ Transitioned from linear scripting to procedural programming by building a modul
 * **Logging:** Saved errors to a file called `errors.log` instead of just printing them.
 * **Else/Finally:** Used `else` for successful runs and `finally` for a clean finish.
 * **Custom Messages:** Created easy-to-read error messages for the user.
+
+
+## 📁 Task 10: Object-Oriented Programming (OOP)
+**File:** `bank_account.py`
+
+### 🚀 Key Implementations
+* **Encapsulation:** Used private variables (`__balance`) to protect sensitive data from direct access.
+* **Inheritance:** Created a specialized `Savings` class that inherits logic from a base `Bank` class.
+* **Method Overriding:** Customised the `display` method in the child class to provide more specific data.
+* **Abstraction:** Simulated real-world banking operations (deposit, withdraw) through method calls.
+
+### 🛠️ Technical Skills
+* **Constructors:** Used `__init__` for object initialization.
+* **Super():** Utilized `super()` to call parent class constructors.
+* **Object Mapping:** Managed multiple distinct objects with unique states.
