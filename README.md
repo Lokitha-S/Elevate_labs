@@ -152,3 +152,23 @@ A centralized Python utility for validating common user inputs using Regular Exp
 | **Email** | `^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$` |
 | **Mobile** | `^(?:\+91|0)?[6789]\d{9}$` |
 | **Password**| `^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$` |
+
+
+# API Integration and Data Fetching
+
+## Task 12: `api_data_fetch.py`,`Task12.png`
+**Date:** 03/02/26
+
+### Key Implementations
+- **HTTP Requests**: Utilized the `requests` library to perform GET operations on public REST APIs
+- **JSON Parsing**: Decoded complex nested JSON structures into Python dictionaries for data extraction
+- **Error Handling**: Implemented status code checks and `RequestException` traps for robust network communication
+- **Data Persistence**: Automated the storage of live API responses into local text files for offline access
+
+### Technical Skills Demonstrated
+- **Status Codes**: Managed logic based on HTTP 200 (Success) and handled 4xx/5xx error states
+- **Endpoint Configuration**: Worked with query parameters (Latitude/Longitude) to filter API results
+- **File I/O**: Seamlessly integrated network data with local file system writing
+
+---
+**Built with:** Python 3.x, `requests` library
