@@ -129,3 +129,26 @@ Transitioned from linear scripting to procedural programming by building a modul
 * **Constructors:** Used `__init__` for object initialization.
 * **Super():** Utilized `super()` to call parent class constructors.
 * **Object Mapping:** Managed multiple distinct objects with unique states.
+
+
+## 📁 Task 11: Regex Validation System
+**File:** `regex_validation.py`
+**Date:** 03/02/26
+
+A centralized Python utility for validating common user inputs using Regular Expressions (`re` module). This project demonstrates pattern matching, edge-case handling, and modular code design.
+
+## 🚀 Features
+
+- **Email Validation**: Ensures standard `user@domain.com` formatting.
+- **Indian Mobile Validation**: Validates 10-digit numbers starting with 6-9, supporting optional `+91` or `0` prefixes.
+- **Password Strength Check**: Enforces security rules (Length, Uppercase, Lowercase, Numbers, and Special Characters).
+- **Dynamic Input**: Interactive CLI to test inputs in real-time.
+- **Error Handling**: Provides specific feedback for empty strings or malformed patterns.
+
+## 🛠️ Regex Patterns Used
+
+| Data Type | Regex Pattern |
+| :--- | :--- |
+| **Email** | `^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$` |
+| **Mobile** | `^(?:\+91|0)?[6789]\d{9}$` |
+| **Password**| `^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$` |
