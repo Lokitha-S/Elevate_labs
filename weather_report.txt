@@ -1,0 +1,3 @@
+--- Bengaluru Weather ---
+Temperature: 20.8°C
+Wind Speed: 10.8 km/h

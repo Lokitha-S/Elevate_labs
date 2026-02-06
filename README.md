@@ -171,4 +171,24 @@ A centralized Python utility for validating common user inputs using Regular Exp
 - **File I/O**: Seamlessly integrated network data with local file system writing
 
 ---
-**Built with:** Python 3.x, `requests` library
+
+
+# Web Scraping Using BeautifulSoup
+
+## Task 13: `web_scraper.py`,`Task13.png`,`scraped_quotes.csv`
+**Date:** 06/02/26
+
+### Key Implementations
+- **DOM Parsing**: Utilized BeautifulSoup to navigate HTML structures and target data within specific tags and classes.
+- **Data Extraction**: Automated the retrieval of text, hyperlinks (href), and attributes from live web pages.
+- **Defensive Scraping**: Implemented safety checks to handle missing tags safely, preventing AttributeError during runtime.
+- **CSV Integration**: Converted unstructured HTML data into structured tabular formats for data analysis.
+
+### Technical Skills Demonstrated
+- **Tag Identification**: Proficiency in using .find() and .find_all() with complex CSS class selectors.
+- **HTTP Communication**: Used requests to handle server-side responses and status verification.
+- **Data Persistence**: Managed File I/O to write scraped datasets into local .csv files.
+
+-----
+
+
