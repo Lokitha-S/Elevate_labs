@@ -152,11 +152,10 @@ A centralized Python utility for validating common user inputs using Regular Exp
 | **Email** | `^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$` |
 | **Mobile** | `^(?:\+91|0)?[6789]\d{9}$` |
 | **Password**| `^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$` |
+------
 
-
-# API Integration and Data Fetching
-
-## Task 12: `api_data_fetch.py`,`Task12.png`
+## Task 12: API Integration and Data Fetching
+**Files:**`api_data_fetch.py`,`Task12.png`
 **Date:** 03/02/26
 
 ### Key Implementations
@@ -173,9 +172,8 @@ A centralized Python utility for validating common user inputs using Regular Exp
 ---
 
 
-# Web Scraping Using BeautifulSoup
-
-## Task 13: `web_scraper.py`,`Task13.png`,`scraped_quotes.csv`
+## Task 13: Web Scraping Using BeautifulSoup
+**Files:**`web_scraper.py`,`Task13.png`,`scraped_quotes.csv`
 **Date:** 06/02/26
 
 ### Key Implementations
