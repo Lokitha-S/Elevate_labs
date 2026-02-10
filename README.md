@@ -189,4 +189,14 @@ A centralized Python utility for validating common user inputs using Regular Exp
 
 -----
 
+# Task 14: Database Operations Using SQLite
+**Files:**`database_app.py`,`Task14.png`,`my_application.db`
+**Date:** 10/02/26
 
+A simple Python application that demonstrates how to perform CRUD (Create, Read, Update, Delete) operations using the built-in `sqlite3` library. This project focuses on dynamic user input and secure database practices.
+
+## Features
+* **Dynamic Input:** Accepts Indian names and cities directly from the user.
+* **Security:** Uses parameterized queries to prevent SQL Injection.
+* **CRUD Logic:** Covers creating tables, inserting, fetching, updating, and deleting records.
+* **Resource Management:** Ensures database connections are committed and closed properly.
