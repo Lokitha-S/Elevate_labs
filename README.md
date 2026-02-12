@@ -200,3 +200,26 @@ A simple Python application that demonstrates how to perform CRUD (Create, Read,
 * **Security:** Uses parameterized queries to prevent SQL Injection.
 * **CRUD Logic:** Covers creating tables, inserting, fetching, updating, and deleting records.
 * **Resource Management:** Ensures database connections are committed and closed properly.
+
+
+
+# Task 15: Iris Dataset Analysis & Preprocessing
+
+This project demonstrates a complete data analysis workflow using the **Iris Dataset**. It covers everything from loading raw data to feature engineering and exporting cleaned results using the **Pandas** library.
+
+## Project Overview
+As part of my training with **Elevate Labs**, I implemented this script to practice the "80% of Data Science"—Data Cleaning and Exploration. This is a crucial step before building any Machine Learning model.
+
+## Features
+* **Data Integration:** Loads the Iris dataset directly from `sklearn.datasets`.
+* **Exploration:** Detailed statistical summaries using `describe()`, `info()`, and `head()`.
+* **Cleaning:** Robust handling of missing values and data filtering.
+* **Aggregation:** Grouping data by species to find average measurements.
+* **Feature Engineering:** Calculation of new metrics (e.g., Sepal Area) to enhance the dataset.
+* **Export:** Cleaned data is saved to a CSV for future ML model training.
+
+## Requirements
+To run this script, you will need:
+- Python 3.x
+- Pandas
+- Scikit-Learn
