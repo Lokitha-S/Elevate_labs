@@ -204,6 +204,8 @@ A simple Python application that demonstrates how to perform CRUD (Create, Read,
 
 
 # Task 15: Iris Dataset Analysis & Preprocessing
+**Files:**`data_analysis.py`,`Task15.png`,`cleaned_iris_data.csv`
+**Date:** 12/02/26
 
 This project demonstrates a complete data analysis workflow using the **Iris Dataset**. It covers everything from loading raw data to feature engineering and exporting cleaned results using the **Pandas** library.
 
@@ -218,8 +220,20 @@ As part of my training with **Elevate Labs**, I implemented this script to pract
 * **Feature Engineering:** Calculation of new metrics (e.g., Sepal Area) to enhance the dataset.
 * **Export:** Cleaned data is saved to a CSV for future ML model training.
 
-## Requirements
-To run this script, you will need:
-- Python 3.x
-- Pandas
-- Scikit-Learn
+# Task 16: Numerical Operations with NumPy
+**Files:**`numpy_operations.py`,`Task16.png`,
+**Date:** 13/02/26
+
+This repository demonstrates advanced array manipulation and mathematical operations using the **NumPy** library. 
+
+## Learning Objectives
+- Master **Vectorization** to replace slow Python loops.
+- Understand **Broadcasting** rules for multi-dimensional data.
+- Compare memory and time efficiency between NumPy and standard Python structures.
+
+## Implementation Details
+1. **Dimensions:** Created 1D, 2D, and 3D arrays to simulate real-world data shapes.
+2. **Operations:** Implemented element-wise math and statistical functions.
+3. **Randomization:** Used `numpy.random` to generate test datasets.
+4. **Optimization:** Demonstrated speed increase using NumPy universal functions (ufuncs).
+
